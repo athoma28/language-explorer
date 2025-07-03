@@ -1,0 +1,49 @@
+:root {
+  --bg: #fafafa;
+  --fg: #222;
+  --accent: #5a9;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: var(--bg);
+  color: var(--fg);
+}
+header {
+  padding: 1rem;
+  background: var(--accent);
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.controls {
+  margin-left: auto;
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+}
+#content {
+  padding: 1rem;
+}
+.sentence {
+  padding: 0.5rem;
+  border-bottom: 1px solid #ddd;
+}
+.sentence:hover {
+  background: #eee;
+}
+.sentence.no-audio {
+  opacity: 0.6;
+  cursor: default;
+}
+.sentence .script {
+  display: block;
+  font-size: 1.5rem;
+  margin-bottom: 0.2rem;
+}
+.sentence .text {
+  display: inline-block;
+  width: 45%;
+  vertical-align: top;
+}
