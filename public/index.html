@@ -1,3 +1,4 @@
+<!-- public/index.html -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,7 +10,9 @@
   <header>
     <h1>Language Explorer</h1>
     <div class="controls">
-      <select id="lessonSelect"></select>
+      <select id="lessonSelect">
+        <option value="all">All Lessons</option>
+      </select>
       <input id="search" placeholder="Search…">
       <label><input type="radio" name="field" value="source" checked> Source</label>
       <label><input type="radio" name="field" value="translation"> Translation</label>
@@ -17,6 +20,9 @@
   </header>
   <main id="content"></main>
   <audio id="player"></audio>
+
+  <!-- client-side markdown parser -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

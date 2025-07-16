@@ -1,97 +1,98 @@
+// server.js
 const express = require('express')
-const cors = require('cors')
-const fs = require('fs').promises
-const path = require('path')
+const cors    = require('cors')
+const fs      = require('fs').promises
+const path    = require('path')
+const yaml    = require('js-yaml')
 
-/**
- * CONFIG: adjust these patterns to match your files
- */
+/** CONFIG: tweak naming patterns here **/
 const LESSONS_DIR     = path.join(__dirname, 'lessons')
-// folder names like "lesson4", "lesson5", etc.
 const LESSON_FOLDER_RE = /^lesson(\d+)$/
-
-// within each folder:
-//   source → `${basename}.txt`
-//   translation → `${basename}-en.txt`
-//   script (optional) → `${basename}-zh.txt`
 const TXT_PATTERNS = {
-  source:       (base) => `${base}.txt`,
-  translation:  (base) => `${base}-en.txt`,
-  script:       (base) => `${base}-zh.txt`,
+  source:      base => `${base}.txt`,
+  translation: base => `${base}-en.txt`,
+  script:      base => `${base}-zh.txt`,
 }
-
-// audio files named "Sound xx.wav" (01–99)
-const audioFilename = (num) =>
-  `Sound ${String(num).padStart(2, '0')}.wav`
-
+const audioFilename = num =>
+  `Sound ${String(num).padStart(3,'0')}.wav`
 /** END CONFIG **/
 
 const app = express()
-
 app.use(cors())
 app.use(express.static('public'))
-// serve audio files under /audio/lessonX/…
-app.use('/audio', express.static(path.join(__dirname, 'lessons')))
+app.use('/audio', express.static(LESSONS_DIR))
 
 app.get('/api/lessons', async (req, res) => {
   try {
-    const dirs = await fs.readdir(LESSONS_DIR, { withFileTypes: true })
+    const dirents = await fs.readdir(LESSONS_DIR, { withFileTypes: true })
     const lessons = []
 
-    for (const dirent of dirs) {
-      if (!dirent.isDirectory()) continue
-      const folder = dirent.name
-      if (!LESSON_FOLDER_RE.test(folder)) continue
+    for (const d of dirents) {
+      if (!d.isDirectory() || !LESSON_FOLDER_RE.test(d.name)) continue
+      const folder = d.name
+      const base   = folder
+      const dir    = path.join(LESSONS_DIR, folder)
 
-      const lessonPath = path.join(LESSONS_DIR, folder)
-      const baseName   = folder  // e.g. "lesson4"
+      // 1) load optional metadata
+      let meta = { name: folder, subtitle: '' }
+      try {
+        const yml = await fs.readFile(path.join(dir,'lesson.yaml'),'utf8')
+        const doc = yaml.load(yml)
+        meta.name     = doc['lesson-name']     || meta.name
+        meta.subtitle = doc['lesson-subtitle'] || ''
+      } catch {}
 
-      // read the three possible txt files
-      const paths = {
-        source:      path.join(lessonPath, TXT_PATTERNS.source(baseName)),
-        translation: path.join(lessonPath, TXT_PATTERNS.translation(baseName)),
-        script:      path.join(lessonPath, TXT_PATTERNS.script(baseName)),
-      }
+      // 2) load optional markdown description
+      let description = ''
+      try {
+        description = await fs.readFile(
+          path.join(dir,'lesson-description.md'),
+          'utf8'
+        )
+      } catch {}
 
-      // load source + translation (required)
-      const [srcText, tgtText] = await Promise.all([
-        fs.readFile(paths.source, 'utf8'),
-        fs.readFile(paths.translation, 'utf8')
+      // 3) load source & translation
+      const srcPath = path.join(dir, TXT_PATTERNS.source(base))
+      const tgtPath = path.join(dir, TXT_PATTERNS.translation(base))
+      const [srcTxt, tgtTxt] = await Promise.all([
+        fs.readFile(srcPath,'utf8'),
+        fs.readFile(tgtPath,'utf8')
       ]).catch(err => {
-        console.error(`✖ Missing required txt in ${folder}:`, err.message)
+        console.error(`Missing txt in ${folder}:`, err.message)
         throw err
       })
+      const sources = srcTxt.split('\n')
+      const targets = tgtTxt.split('\n')
 
-      const sources = srcText.split('\n')
-      const targets = tgtText.split('\n')
-
-      // optional script
+      // 4) optional script
       let scripts = []
       try {
-        const scriptText = await fs.readFile(paths.script, 'utf8')
-        scripts = scriptText.split('\n')
-      } catch {
-        // no script file → leave scripts empty
-      }
+        const sc = await fs.readFile(
+          path.join(dir, TXT_PATTERNS.script(base)),
+          'utf8'
+        )
+        scripts = sc.split('\n')
+      } catch {}
 
       if (sources.length !== targets.length) {
-        console.warn(`⚠ [${folder}] source/translation line count mismatch:`,
+        console.warn(`[${folder}] src/tgt line mismatch:`,
           sources.length, 'vs', targets.length)
       }
       if (scripts.length && scripts.length !== sources.length) {
-        console.warn(`⚠ [${folder}] source/script line count mismatch:`,
+        console.warn(`[${folder}] src/script line mismatch:`,
           sources.length, 'vs', scripts.length)
       }
 
+      // 5) build sentences array
       const sentences = []
-      for (let i = 0; i < Math.max(sources.length, targets.length); i++) {
-        const id = i + 1
-        const audioPath = path.join(lessonPath, audioFilename(id))
+      const max = Math.max(sources.length, targets.length)
+      for (let i = 0; i < max; i++) {
+        const id = i+1
+        const file = path.join(dir, audioFilename(id))
         let hasAudio = true
-        try {
-          await fs.access(audioPath)
-        } catch {
-          console.warn(`⚠ [${folder}] missing audio for line ${id}:`, audioFilename(id))
+        try { await fs.access(file) }
+        catch {
+          console.warn(`[${folder}] missing audio ${audioFilename(id)}`)
           hasAudio = false
         }
         sentences.push({
@@ -99,20 +100,22 @@ app.get('/api/lessons', async (req, res) => {
           source:      sources[i] || '',
           translation: targets[i] || '',
           script:      scripts[i] || null,
-          audioUrl:    hasAudio ? `/audio/${folder}/${audioFilename(id)}` : null
+          audioUrl:    hasAudio
+            ? `/audio/${folder}/${audioFilename(id)}`
+            : null
         })
       }
 
-      lessons.push({ lesson: folder, sentences })
+      lessons.push({ folder, meta, description, sentences })
     }
 
     res.json(lessons)
   } catch (err) {
-    console.error('✖ Error building lesson list:', err)
+    console.error('Error:', err)
     res.status(500).send('Internal Server Error')
   }
 })
 
-app.listen(3000, () => {
-  console.log('Language Explorer API running on http://localhost:3000')
-})
+app.listen(3000, () =>
+  console.log('Listening on http://localhost:3000')
+)
