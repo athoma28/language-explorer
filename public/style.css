@@ -1,3 +1,4 @@
+/* public/style.css */
 :root {
   --bg: #fafafa;
   --fg: #222;
@@ -25,6 +26,21 @@ header {
 }
 #content {
   padding: 1rem;
+}
+section {
+  margin-bottom: 2rem;
+}
+section h2 {
+  margin: 0;
+  font-size: 1.75rem;
+}
+section h3 {
+  margin: 0.2rem 0 0.5rem;
+  font-size: 1.1rem;
+  color: #555;
+}
+section .description {
+  margin-bottom: 1rem;
 }
 .sentence {
   padding: 0.5rem;
