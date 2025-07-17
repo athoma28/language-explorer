@@ -1,4 +1,3 @@
-/* public/style.css */
 :root {
   --bg: #fafafa;
   --fg: #222;
@@ -15,7 +14,6 @@ header {
   background: var(--accent);
   color: white;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
 }
 .controls {
@@ -31,15 +29,15 @@ section {
   margin-bottom: 2rem;
 }
 section h2 {
-  margin: 0;
   font-size: 1.75rem;
+  margin: 0;
 }
 section h3 {
-  margin: 0.2rem 0 0.5rem;
   font-size: 1.1rem;
+  margin: 0.2rem 0 0.5rem;
   color: #555;
 }
-section .description {
+.description {
   margin-bottom: 1rem;
 }
 .sentence {
@@ -51,9 +49,8 @@ section .description {
 }
 .sentence.no-audio {
   opacity: 0.6;
-  cursor: default;
 }
-.sentence .script {
+.sentence .transcription {
   display: block;
   font-size: 1.5rem;
   margin-bottom: 0.2rem;
@@ -62,27 +59,4 @@ section .description {
   display: inline-block;
   width: 45%;
   vertical-align: top;
-}
-.modal {
-  display: none;
-  position: fixed;
-  top: 0; left: 0; width: 100%; height: 100%;
-  background: rgba(0,0,0,0.4);
-  justify-content: center; align-items: center;
-}
-.modal-content {
-  background: white; padding: 1.5rem; border-radius: 8px;
-  width: 90%; max-width: 400px;
-}
-.modal-content label {
-  display: block; margin-bottom: 0.75rem;
-}
-.modal-content input {
-  width: 100%; padding: 0.3rem; margin-top: 0.2rem;
-}
-.modal-buttons {
-  text-align: right; margin-top: 1rem;
-}
-.modal-buttons button {
-  margin-left: 0.5rem;
 }
