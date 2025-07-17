@@ -1,39 +1,42 @@
-// public/script.js
 let lessons = []
 
 async function load() {
-  try {
-    lessons = await fetch('/api/lessons').then(r => r.json())
-  } catch (e) {
-    console.error('Failed to load lessons:', e)
-    return
-  }
+  [lessons, config] = await Promise.all([
+    fetch('/api/lessons').then(r => r.json()),
+    fetch('/api/config').then(r => r.json())
+  ])
+  buildLessonSelect()
+  wireControls()
+  render('all')
+  initSettingsModal(config)
+}
 
+function buildLessonSelect() {
   const sel = document.getElementById('lessonSelect')
-  lessons.forEach((L, i) => {
+  lessons.forEach((L,i) => {
     const o = document.createElement('option')
     o.value = i
     o.textContent = L.meta.name
     sel.append(o)
   })
+}
 
-  sel.addEventListener('change', () => render(sel.value))
+function wireControls() {
+  document.getElementById('lessonSelect')
+    .addEventListener('change', e => render(e.target.value))
   document.getElementById('search')
     .addEventListener('input', filter)
   document.getElementsByName('field')
     .forEach(r => r.addEventListener('change', filter))
-
-  render('all')
+  document.getElementById('openSettings')
+    .addEventListener('click', () => showModal(true))
 }
 
 function render(val) {
   const container = document.getElementById('content')
   container.innerHTML = ''
-  if (val === 'all') {
-    lessons.forEach(L => renderLesson(L, container))
-  } else {
-    renderLesson(lessons[val], container)
-  }
+  if (val === 'all') lessons.forEach(L => renderLesson(L,container))
+  else renderLesson(lessons[val], container)
   filter()
 }
 
@@ -66,25 +69,63 @@ function renderLesson({ meta, description, sentences }, parent) {
       d.addEventListener('click', () => {
         const p = document.getElementById('player')
         p.src = s.audioUrl
-        p.play().catch(e => console.error('Audio error:', e))
+        p.play().catch(console.error)
       })
     }
 
-    // store for filtering
     d.dataset.source      = s.source.toLowerCase()
     d.dataset.translation = s.translation.toLowerCase()
-
     sec.append(d)
   })
   parent.append(sec)
 }
 
 function filter() {
-  const q     = document.getElementById('search').value.toLowerCase()
-  const field = document.querySelector('input[name=field]:checked').value
-  document.querySelectorAll('.sentence').forEach(el => {
-    el.style.display = el.dataset[field].includes(q) ? '' : 'none'
-  })
+  const q = document.getElementById('search').value.toLowerCase()
+  const f = document.querySelector('input[name=field]:checked').value
+  document.querySelectorAll('.sentence')
+    .forEach(el => el.style.display = el.dataset[f].includes(q) ? '' : 'none')
+}
+
+// ---- SETTINGS PANEL LOGIC ----
+
+let currentConfig
+
+function initSettingsModal(cfg) {
+  currentConfig = cfg
+  // populate inputs
+  document.getElementById('cfgFolderRE').value = cfg.lessonFolderRegex
+  document.getElementById('cfgSource').value   = cfg.txtPatterns.source
+  document.getElementById('cfgTranslation').value = cfg.txtPatterns.translation
+  document.getElementById('cfgScript').value   = cfg.txtPatterns.script
+  document.getElementById('cfgAudio').value    = cfg.audioPattern
+
+  document.getElementById('saveSettings')
+    .addEventListener('click', async () => {
+      const newCfg = {
+        lessonFolderRegex: document.getElementById('cfgFolderRE').value,
+        txtPatterns: {
+          source:      document.getElementById('cfgSource').value,
+          translation: document.getElementById('cfgTranslation').value,
+          script:      document.getElementById('cfgScript').value
+        },
+        audioPattern: document.getElementById('cfgAudio').value
+      }
+      await fetch('/api/config', {
+        method: 'POST',
+        headers: {'Content-Type':'application/json'},
+        body: JSON.stringify(newCfg)
+      })
+      showModal(false)
+      location.reload()  // reload to pick up new config
+    })
+
+  document.getElementById('cancelSettings')
+    .addEventListener('click', () => showModal(false))
+}
+
+function showModal(on) {
+  document.getElementById('settingsModal').style.display = on ? 'flex' : 'none'
 }
 
 window.addEventListener('DOMContentLoaded', load)

@@ -1,0 +1,9 @@
+{
+  "lessonFolderRegex": "^lesson(\\d+)$",
+  "txtPatterns": {
+    "source": "${base}.txt",
+    "translation": "${base}-en.txt",
+    "script": "${base}-zh.txt"
+  },
+  "audioPattern": "${num}_southwestern.wav"
+}
