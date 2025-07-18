@@ -3,7 +3,6 @@ lessons:
   - name: Mandarin
     subtitle: Basics of Mandarin
     path: lessons/mandarin
-    descriptionFile: lessons/mandarin/lesson-description.md
     source: lessons/mandarin/mandarin.txt
     target: lessons/mandarin/mandarin-en.txt
     transcription: lessons/mandarin/mandarin-zh.txt
