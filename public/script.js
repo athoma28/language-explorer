@@ -3,7 +3,7 @@ let lessons = []
 
 async function load() {
   try {
-    lessons = await fetch('/api/lessons').then(r => {
+    lessons = await fetch('lessons.json').then(r => {
       if (!r.ok) throw new Error(`HTTP ${r.status}`)
       return r.json()
     })
