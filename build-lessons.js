@@ -26,7 +26,8 @@ async function getAudioFiles(lessonPath, isProd, audioBaseUrl) {
     const xmlData = await parseStringPromise(response.data)
     
     if (!xmlData.ListBucketResult || !xmlData.ListBucketResult.Contents) {
-      return []
+      console.error(`❌ No audio files found in GCS for ${lessonPath}`)
+      process.exit(1)
     }
 
     return xmlData.ListBucketResult.Contents
@@ -35,7 +36,7 @@ async function getAudioFiles(lessonPath, isProd, audioBaseUrl) {
       .sort((a,b) => a.localeCompare(b, undefined, { numeric: true }))
   } catch (error) {
     console.error(`❌ Error fetching audio files from GCS for ${lessonPath}:`, error.message)
-    return []
+    process.exit(1)
   }
 }
 
