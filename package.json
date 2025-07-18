@@ -6,7 +6,7 @@
   "scripts": {
     "start":     "node server.cjs",
     "build:dev": "node build-lessons.js",
-    "build:prod": "node build-lessons.js --audio-base-url https://storage.googleapis.com/language-explorer-assets"
+    "build:prod": "node build-lessons.js --audio-base-url https://storage.googleapis.com/language-explorer-assets/"
   },
   "dependencies": {
     "cors":     "^2.8.5",

@@ -2,623 +2,623 @@
   {
     "name": "Mandarin",
     "subtitle": "Basics of Mandarin",
-    "description": "",
+    "description": "[Clickable Pinyin chart](https://yoyochinese.com/chinese-learning-tools/Mandarin-Chinese-pronunciation-lesson/pinyin-chart-table)",
     "sentences": [
       {
         "id": 1,
         "source": "hǎo chī ！",
         "target": "Tasty/yummy!",
         "transcription": "好吃！",
-        "audioUrl": "/lessons/mandarin/001_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/001_standard.wav"
       },
       {
         "id": 2,
         "source": "hǎo xiāng ！",
         "target": "Smells so good!",
         "transcription": "好香！",
-        "audioUrl": "/lessons/mandarin/002_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/002_standard.wav"
       },
       {
         "id": 3,
         "source": "zhēn piāo liàng ！",
         "target": "Beautiful! (a person, place, thing)",
         "transcription": "真漂亮！",
-        "audioUrl": "/lessons/mandarin/003_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/003_standard.wav"
       },
       {
         "id": 4,
         "source": "zhēn rè nào 。",
         "target": "It's really lively. (a busy street, market)",
         "transcription": "真热闹。",
-        "audioUrl": "/lessons/mandarin/004_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/004_standard.wav"
       },
       {
         "id": 5,
         "source": "là ma ？",
         "target": "Spicy?",
         "transcription": "辣吗？",
-        "audioUrl": "/lessons/mandarin/005_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/005_standard.wav"
       },
       {
         "id": 6,
         "source": "kě yǐ ma ？",
         "target": "Is it/this okay?",
         "transcription": "可以吗？",
-        "audioUrl": "/lessons/mandarin/006_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/006_standard.wav"
       },
       {
         "id": 7,
         "source": "fāng biàn ma ？",
         "target": "Is it/this convenient?",
         "transcription": "方便吗？",
-        "audioUrl": "/lessons/mandarin/007_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/007_standard.wav"
       },
       {
         "id": 8,
         "source": "bú kè qì 。",
         "target": "You're welcome.",
         "transcription": "不客气。",
-        "audioUrl": "/lessons/mandarin/008_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/008_standard.wav"
       },
       {
         "id": 9,
         "source": "bú yòng xiè 。",
         "target": "You're welcome / no need for thanks.",
         "transcription": "不用谢。",
-        "audioUrl": "/lessons/mandarin/009_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/009_standard.wav"
       },
       {
         "id": 10,
         "source": "bú fāng biàn 。",
         "target": "It's not convenient. (a polite refusal when requested to do something)",
         "transcription": "不方便。",
-        "audioUrl": "/lessons/mandarin/010_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/010_standard.wav"
       },
       {
         "id": 11,
         "source": "bú yòng ，xiè xiè ",
         "target": "No need, thanks. ",
         "transcription": "不用，谢谢",
-        "audioUrl": "/lessons/mandarin/011_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/011_standard.wav"
       },
       {
         "id": 12,
         "source": "bié kè qì 。",
         "target": "No need to be so polite.",
         "transcription": "别客气。",
-        "audioUrl": "/lessons/mandarin/012_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/012_standard.wav"
       },
       {
         "id": 13,
         "source": "bú là ，bú là 。",
         "target": "Not spicy, not spicy.",
         "transcription": "不辣，不辣。",
-        "audioUrl": "/lessons/mandarin/013_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/013_standard.wav"
       },
       {
         "id": 14,
         "source": "yǒu diǎn là 。",
         "target": "It's a little spicy.",
         "transcription": "有点辣。",
-        "audioUrl": "/lessons/mandarin/014_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/014_standard.wav"
       },
       {
         "id": 15,
         "source": "bú chōu ，xiè xiè ",
         "target": "I don't smoke, thank you. ",
         "transcription": "不抽，谢谢",
-        "audioUrl": "/lessons/mandarin/015_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/015_standard.wav"
       },
       {
         "id": 16,
         "source": "hǎo qín kuài 。",
         "target": "So hardworking.",
         "transcription": "好勤快。",
-        "audioUrl": "/lessons/mandarin/016_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/016_standard.wav"
       },
       {
         "id": 17,
         "source": "chōu bú chōu yān ",
         "target": "Do you smoke?",
         "transcription": "抽不抽烟",
-        "audioUrl": "/lessons/mandarin/017_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/017_standard.wav"
       },
       {
         "id": 18,
         "source": "xǐ bú xǐ huān ？",
         "target": "Do you like it?",
         "transcription": "喜不喜欢？",
-        "audioUrl": "/lessons/mandarin/018_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/018_standard.wav"
       },
       {
         "id": 19,
         "source": "fàng nǎ ér ？",
         "target": "Where do you want it? / Where should I put it?",
         "transcription": "放哪儿？",
-        "audioUrl": "/lessons/mandarin/019_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/019_standard.wav"
       },
       {
         "id": 20,
         "source": "xiǎo xīn diǎn 。",
         "target": "Be careful!",
         "transcription": "小心点。",
-        "audioUrl": "/lessons/mandarin/020_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/020_standard.wav"
       },
       {
         "id": 21,
         "source": "xiǎo xīn tàng ！",
         "target": "Careful, it's hot!",
         "transcription": "小心烫！",
-        "audioUrl": "/lessons/mandarin/021_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/021_standard.wav"
       },
       {
         "id": 22,
         "source": "màn màn chī 。",
         "target": "Eat slowly / Go ahead and keep eating.",
         "transcription": "慢慢吃。",
-        "audioUrl": "/lessons/mandarin/022_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/022_standard.wav"
       },
       {
         "id": 23,
         "source": "nǐ xiān qǐng 。",
         "target": "After you / you go ahead.",
         "transcription": "你先请。",
-        "audioUrl": "/lessons/mandarin/023_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/023_standard.wav"
       },
       {
         "id": 24,
         "source": "duō chī yī diǎn ！",
         "target": "Eat some more!",
         "transcription": "多吃一点！",
-        "audioUrl": "/lessons/mandarin/024_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/024_standard.wav"
       },
       {
         "id": 25,
         "source": "děng děng wǒ ！",
         "target": "Wait for me!",
         "transcription": "等等我！",
-        "audioUrl": "/lessons/mandarin/025_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/025_standard.wav"
       },
       {
         "id": 26,
         "source": "xīn kǔ le ！",
         "target": "You've worked so hard!",
         "transcription": "辛苦了！",
-        "audioUrl": "/lessons/mandarin/026_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/026_standard.wav"
       },
       {
         "id": 27,
         "source": "bú tài míng bái 。",
         "target": "I don't understand.",
         "transcription": "不太明白。",
-        "audioUrl": "/lessons/mandarin/027_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/027_standard.wav"
       },
       {
         "id": 28,
         "source": "bú yào má fán 。",
         "target": "Don't bother yourself about it / no need to bother",
         "transcription": "不要麻烦。",
-        "audioUrl": "/lessons/mandarin/028_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/028_standard.wav"
       },
       {
         "id": 29,
         "source": "nǐ bú yòng xǐ ！",
         "target": "You don't have to wash it!",
         "transcription": "你不用洗！",
-        "audioUrl": "/lessons/mandarin/029_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/029_standard.wav"
       },
       {
         "id": 30,
         "source": "gǔ tóu hěn duō 。",
         "target": "There's a lot of bones.",
         "transcription": "骨头很多。",
-        "audioUrl": "/lessons/mandarin/030_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/030_standard.wav"
       },
       {
         "id": 31,
         "source": "zhēn yǒu yì sī 。",
         "target": "How interesting.",
         "transcription": "真有意思。",
-        "audioUrl": "/lessons/mandarin/031_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/031_standard.wav"
       },
       {
         "id": 32,
         "source": "nǐ lěng bú lěng ？",
         "target": "Are you cold?",
         "transcription": "你冷不冷？",
-        "audioUrl": "/lessons/mandarin/032_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/032_standard.wav"
       },
       {
         "id": 33,
         "source": "wèi dào chāo hǎo 。",
         "target": "The flavor is incredible.",
         "transcription": "味道超好。",
-        "audioUrl": "/lessons/mandarin/033_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/033_standard.wav"
       },
       {
         "id": 34,
         "source": "tiān qì zhēn hǎo ！",
         "target": "The weather is so nice!",
         "transcription": "天气真好！",
-        "audioUrl": "/lessons/mandarin/034_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/034_standard.wav"
       },
       {
         "id": 35,
         "source": "tài hǎo chī le 。",
         "target": "It's so delicious.",
         "transcription": "太好吃了。",
-        "audioUrl": "/lessons/mandarin/035_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/035_standard.wav"
       },
       {
         "id": 36,
         "source": "tài rè le ba ？",
         "target": "It's too hot, isn't it? (a polite inquiry about whether you're too hot)",
         "transcription": "太热了吧？",
-        "audioUrl": "/lessons/mandarin/036_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/036_standard.wav"
       },
       {
         "id": 37,
         "source": "hǎo jiǔ bú jiàn 。",
         "target": "Long time no see.",
         "transcription": "好久不见。",
-        "audioUrl": "/lessons/mandarin/037_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/037_standard.wav"
       },
       {
         "id": 38,
         "source": "hǎo hǎo xiū xī 。",
         "target": "Have a good rest.",
         "transcription": "好好休息。",
-        "audioUrl": "/lessons/mandarin/038_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/038_standard.wav"
       },
       {
         "id": 39,
         "source": "wǒ xiān zǒu le 。",
         "target": "I'll head out / head off first.",
         "transcription": "我先走了。",
-        "audioUrl": "/lessons/mandarin/039_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/039_standard.wav"
       },
       {
         "id": 40,
         "source": "wǒ lái ná ba 。",
         "target": "I'll get it / I'll hold it / I'll carry it.",
         "transcription": "我来拿吧。",
-        "audioUrl": "/lessons/mandarin/040_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/040_standard.wav"
       },
       {
         "id": 41,
         "source": "wǒ lái kàn kàn 。",
         "target": "I'll take a look.",
         "transcription": "我来看看。",
-        "audioUrl": "/lessons/mandarin/041_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/041_standard.wav"
       },
       {
         "id": 42,
         "source": "méi yǒu ，méi yǒu ",
         "target": "No, no. / Don't have, don't have.",
         "transcription": "没有，没有",
-        "audioUrl": "/lessons/mandarin/042_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/042_standard.wav"
       },
       {
         "id": 43,
         "source": "yào bāng máng ma ？",
         "target": "Want some help?",
         "transcription": "要帮忙吗？",
-        "audioUrl": "/lessons/mandarin/043_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/043_standard.wav"
       },
       {
         "id": 44,
         "source": "wèi ！nǐ hǎo ！",
         "target": "Hey! Hello!",
         "transcription": "喂！你好！",
-        "audioUrl": "/lessons/mandarin/044_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/044_standard.wav"
       },
       {
         "id": 45,
         "source": "xiè xiè zhāo dài ！",
         "target": "Thanks for the hospitality! / Thank you for entertaining!",
         "transcription": "谢谢招待！",
-        "audioUrl": "/lessons/mandarin/045_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/045_standard.wav"
       },
       {
         "id": 46,
         "source": "zhè gè hǎo chī 。",
         "target": "This is tasty.",
         "transcription": "这个好吃。",
-        "audioUrl": "/lessons/mandarin/046_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/046_standard.wav"
       },
       {
         "id": 47,
         "source": "zhè lǐ hěn jìn 。",
         "target": "It's very near to here / it's close by.",
         "transcription": "这里很近。",
-        "audioUrl": "/lessons/mandarin/047_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/047_standard.wav"
       },
       {
         "id": 48,
         "source": "zhè yàng kě yǐ ma ？",
         "target": "Is this way okay?",
         "transcription": "这样可以吗？",
-        "audioUrl": "/lessons/mandarin/048_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/048_standard.wav"
       },
       {
         "id": 49,
         "source": "zhè gè méi gǔ tóu 。",
         "target": "It's boneless. / It doesn't have bones.",
         "transcription": "这个没骨头。",
-        "audioUrl": "/lessons/mandarin/049_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/049_standard.wav"
       },
       {
         "id": 50,
         "source": "zhè gè zěn me zuò ？",
         "target": "How do you do this? / How do you make this (dish)?",
         "transcription": "这个怎么做？",
-        "audioUrl": "/lessons/mandarin/050_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/050_standard.wav"
       },
       {
         "id": 51,
         "source": "yào bú yào jiā diǎn ？",
         "target": "Do you want some more? / Do you want to add some?",
         "transcription": "要不要加点？",
-        "audioUrl": "/lessons/mandarin/051_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/051_standard.wav"
       },
       {
         "id": 52,
         "source": "lái ，wǒ bāng nǐ 。",
         "target": "Here, let me help you.",
         "transcription": "来，我帮你。",
-        "audioUrl": "/lessons/mandarin/052_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/052_standard.wav"
       },
       {
         "id": 53,
         "source": "nǐ men xiān zǒu le ",
         "target": "You guys go ahead. / You guys head out first.",
         "transcription": "你们先走了",
-        "audioUrl": "/lessons/mandarin/053_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/053_standard.wav"
       },
       {
         "id": 54,
         "source": "chī bǎo le ，xiè xiè 。",
         "target": "I'm full, thanks.",
         "transcription": "吃饱了，谢谢。",
-        "audioUrl": "/lessons/mandarin/054_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/054_standard.wav"
       },
       {
         "id": 55,
         "source": "zhōng wén shuō dé hǎo ！",
         "target": "Good Chinese!",
         "transcription": "中文说得好！",
-        "audioUrl": "/lessons/mandarin/055_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/055_standard.wav"
       },
       {
         "id": 56,
         "source": "nǐ shì shì zhè gè 。",
         "target": "You try this.",
         "transcription": "你试试这个。",
-        "audioUrl": "/lessons/mandarin/056_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/056_standard.wav"
       },
       {
         "id": 57,
         "source": "wèi dào hěn tè bié 。",
         "target": "It has a unique / special flavor.",
         "transcription": "味道很特别。",
-        "audioUrl": "/lessons/mandarin/057_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/057_standard.wav"
       },
       {
         "id": 58,
         "source": "xǐ huān zhōng guó ma ？",
         "target": "Do you like China?",
         "transcription": "喜欢中国吗？",
-        "audioUrl": "/lessons/mandarin/058_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/058_standard.wav"
       },
       {
         "id": 59,
         "source": "dì yī cì zài zhōng guó ma ？",
         "target": "First time in China?",
         "transcription": "第一次在中国吗？",
-        "audioUrl": "/lessons/mandarin/059_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/059_standard.wav"
       },
       {
         "id": 60,
         "source": "duì ，dì yī cì 。",
         "target": "Yes, for the first time.",
         "transcription": "对，第一次。",
-        "audioUrl": "/lessons/mandarin/060_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/060_standard.wav"
       },
       {
         "id": 61,
         "source": "wǒ men lái bāng máng 。",
         "target": "Here, let us help.",
         "transcription": "我们来帮忙。",
-        "audioUrl": "/lessons/mandarin/061_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/061_standard.wav"
       },
       {
         "id": 62,
         "source": "wǒ shuō de duì ma ？",
         "target": "Am I saying this right?",
         "transcription": "我说的对吗？",
-        "audioUrl": "/lessons/mandarin/062_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/062_standard.wav"
       },
       {
         "id": 63,
         "source": "wǒ gēn nǐ men zǒu 。",
         "target": "I'll go with you guys.",
         "transcription": "我跟你们走。",
-        "audioUrl": "/lessons/mandarin/063_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/063_standard.wav"
       },
       {
         "id": 64,
         "source": "lái ，yī qǐ zuò ！",
         "target": "Come on, let's do it together!",
         "transcription": "来，一起做！",
-        "audioUrl": "/lessons/mandarin/064_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/064_standard.wav"
       },
       {
         "id": 65,
         "source": "xīn kǔ nǐ men le 。",
         "target": "Thanks for your guys' hard work.",
         "transcription": "辛苦你们了。",
-        "audioUrl": "/lessons/mandarin/065_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/065_standard.wav"
       },
       {
         "id": 66,
         "source": "nǐ men xiān xiū xī ba 。",
         "target": "You guys take a rest first.",
         "transcription": "你们先休息吧。",
-        "audioUrl": "/lessons/mandarin/066_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/066_standard.wav"
       },
       {
         "id": 67,
         "source": "xià cì wǒ men qǐng kè 。",
         "target": "We'll treat you (to a meal) next time. ",
         "transcription": "下次我们请客。",
-        "audioUrl": "/lessons/mandarin/067_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/067_standard.wav"
       },
       {
         "id": 68,
         "source": "chà bú duō jiù xíng 。",
         "target": "That's pretty much good. (Pretty much is about all you need)",
         "transcription": "差不多就行。",
-        "audioUrl": "/lessons/mandarin/068_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/068_standard.wav"
       },
       {
         "id": 69,
         "source": "dōu hǎo ，dōu hǎo 。",
         "target": "All good, all good.",
         "transcription": "都好，都好。",
-        "audioUrl": "/lessons/mandarin/069_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/069_standard.wav"
       },
       {
         "id": 70,
         "source": "tīng dé dǒng yī diǎn diǎn 。",
         "target": "I understand a little bit.",
         "transcription": "听得懂一点点。",
-        "audioUrl": "/lessons/mandarin/070_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/070_standard.wav"
       },
       {
         "id": 71,
         "source": "kě yǐ yòng kuài zǐ ma ？",
         "target": "Can you use chopsticks? / Are chopsticks okay to use?",
         "transcription": "可以用筷子吗？",
-        "audioUrl": "/lessons/mandarin/071_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/071_standard.wav"
       },
       {
         "id": 72,
         "source": "kuài zǐ yòng de bú cuò ！",
         "target": "You're good at using chopsticks!",
         "transcription": "筷子用的不错！",
-        "audioUrl": "/lessons/mandarin/072_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/072_standard.wav"
       },
       {
         "id": 73,
         "source": "nǐ bú ài chī zhè gè 。",
         "target": "You won't like eating this.",
         "transcription": "你不爱吃这个。",
-        "audioUrl": "/lessons/mandarin/073_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/073_standard.wav"
       },
       {
         "id": 74,
         "source": "zhè ér pāi zhào hǎo kàn 。",
         "target": "This is a good place to take photos.",
         "transcription": "这儿拍照好看。",
-        "audioUrl": "/lessons/mandarin/074_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/074_standard.wav"
       },
       {
         "id": 75,
         "source": "zuò zhè biān kě yǐ ma ？",
         "target": "Is it all right to sit here?",
         "transcription": "坐这边可以吗？",
-        "audioUrl": "/lessons/mandarin/075_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/075_standard.wav"
       },
       {
         "id": 76,
         "source": "wǒ men suí biàn zuò ma ？",
         "target": "Do we sit wherever we like?",
         "transcription": "我们随便坐吗？",
-        "audioUrl": "/lessons/mandarin/076_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/076_standard.wav"
       },
       {
         "id": 77,
         "source": "hěn kāi xīn ，hěn kāi xīn ",
         "target": "Very happy, very happy. ",
         "transcription": "很开心，很开心",
-        "audioUrl": "/lessons/mandarin/077_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/077_standard.wav"
       },
       {
         "id": 78,
         "source": "rèn shí nǐ hěn gāo xìng 。",
         "target": "It's nice to meet you.",
         "transcription": "认识你很高兴。",
-        "audioUrl": "/lessons/mandarin/078_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/078_standard.wav"
       },
       {
         "id": 79,
         "source": "xiè xiè ，hěn xǐ huān 。",
         "target": "Thanks, really liked it.",
         "transcription": "谢谢，很喜欢。",
-        "audioUrl": "/lessons/mandarin/079_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/079_standard.wav"
       },
       {
         "id": 80,
         "source": "wǒ men yī qǐ pāi zhào ba 。",
         "target": "Let's take a picture together.",
         "transcription": "我们一起拍照吧。",
-        "audioUrl": "/lessons/mandarin/080_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/080_standard.wav"
       },
       {
         "id": 81,
         "source": "méi guān xì ，màn màn lái 。",
         "target": "It's okay, take your time.",
         "transcription": "没关系，慢慢来。",
-        "audioUrl": "/lessons/mandarin/081_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/081_standard.wav"
       },
       {
         "id": 82,
         "source": "hā hā ，hǎo qiǎo ā ！",
         "target": "What a coincidence!",
         "transcription": "哈哈，好巧啊！",
-        "audioUrl": "/lessons/mandarin/082_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/082_standard.wav"
       },
       {
         "id": 83,
         "source": "wǒ lái xǐ ，wǒ lái xǐ 。",
         "target": "I'll wash it, I'll wash it.",
         "transcription": "我来洗，我来洗。",
-        "audioUrl": "/lessons/mandarin/083_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/083_standard.wav"
       },
       {
         "id": 84,
         "source": "jīn tiān zhēn de kāi xīn 。",
         "target": "I'm really happy today.",
         "transcription": "今天真的开心。",
-        "audioUrl": "/lessons/mandarin/084_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/084_standard.wav"
       },
       {
         "id": 85,
         "source": "zhōng wén shuō de hái kě yǐ ！",
         "target": "You can speak Chinese pretty well! (Chinese spoken pretty well!)",
         "transcription": "中文说的还可以！",
-        "audioUrl": "/lessons/mandarin/085_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/085_standard.wav"
       },
       {
         "id": 86,
         "source": "měi guó hǎo hái shì zhōng guó hǎo ？",
         "target": "Is America or China better?",
         "transcription": "美国好还是中国好？",
-        "audioUrl": "/lessons/mandarin/086_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/086_standard.wav"
       },
       {
         "id": 87,
         "source": "zhè gè yòng zhōng wén zěn me shuō ？",
         "target": "How do you say this in Chinese?",
         "transcription": "这个用中文怎么说？",
-        "audioUrl": "/lessons/mandarin/087_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/087_standard.wav"
       },
       {
         "id": 88,
         "source": "wǒ men hěn kāi xīn néng lái dào zhè lǐ ",
         "target": "We're very happy to be here.",
         "transcription": "我们很开心能来到这里",
-        "audioUrl": "/lessons/mandarin/088_standard.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/mandarin/088_standard.wav"
       }
     ]
   },
@@ -632,616 +632,616 @@
         "source": "hǎo chī ！",
         "target": " Yummy!",
         "transcription": "好吃！",
-        "audioUrl": "/lessons/sichuanese/001_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/001_southwestern.wav"
       },
       {
         "id": 2,
         "source": "hǎo xiāng ！",
         "target": "So fragrant!",
         "transcription": "好香！",
-        "audioUrl": "/lessons/sichuanese/002_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/002_southwestern.wav"
       },
       {
         "id": 3,
         "source": "zhēn piāo liàng ！",
         "target": "It's beautiful!",
         "transcription": "真漂亮！",
-        "audioUrl": "/lessons/sichuanese/003_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/003_southwestern.wav"
       },
       {
         "id": 4,
         "source": "zhēn rè nào 。",
         "target": "It's hilarious.",
         "transcription": "真热闹。",
-        "audioUrl": "/lessons/sichuanese/004_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/004_southwestern.wav"
       },
       {
         "id": 5,
         "source": "là ma ？",
         "target": "Is it spicy?",
         "transcription": "辣吗？",
-        "audioUrl": "/lessons/sichuanese/005_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/005_southwestern.wav"
       },
       {
         "id": 6,
         "source": "kě yǐ ma ？",
         "target": "Is it okay?",
         "transcription": "可以吗？",
-        "audioUrl": "/lessons/sichuanese/006_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/006_southwestern.wav"
       },
       {
         "id": 7,
         "source": "fāng biàn ma ？",
         "target": "Is it convenient?",
         "transcription": "方便吗？",
-        "audioUrl": "/lessons/sichuanese/007_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/007_southwestern.wav"
       },
       {
         "id": 8,
         "source": "bú kè qì 。",
         "target": "You're welcome.",
         "transcription": "不客气。",
-        "audioUrl": "/lessons/sichuanese/008_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/008_southwestern.wav"
       },
       {
         "id": 9,
         "source": "bú yòng xiè 。",
         "target": "You're welcome.",
         "transcription": "不用谢。",
-        "audioUrl": "/lessons/sichuanese/009_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/009_southwestern.wav"
       },
       {
         "id": 10,
         "source": "bú fāng biàn 。",
         "target": "It's not convenient.",
         "transcription": "不方便。",
-        "audioUrl": "/lessons/sichuanese/010_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/010_southwestern.wav"
       },
       {
         "id": 11,
         "source": "bú yòng ，xiè xiè ",
         "target": "No, thanks. ",
         "transcription": "不用，谢谢",
-        "audioUrl": "/lessons/sichuanese/011_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/011_southwestern.wav"
       },
       {
         "id": 12,
         "source": "bié kè qì 。",
         "target": "You're welcome.",
         "transcription": "别客气。",
-        "audioUrl": "/lessons/sichuanese/012_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/012_southwestern.wav"
       },
       {
         "id": 13,
         "source": "bú là ，bú là 。",
         "target": "Not spicy, not spicy.",
         "transcription": "不辣，不辣。",
-        "audioUrl": "/lessons/sichuanese/013_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/013_southwestern.wav"
       },
       {
         "id": 14,
         "source": "yǒu diǎn là 。",
         "target": "It's a little spicy.",
         "transcription": "有点辣。",
-        "audioUrl": "/lessons/sichuanese/014_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/014_southwestern.wav"
       },
       {
         "id": 15,
         "source": "bú chōu ，xiè xiè ",
         "target": "No, thank you. ",
         "transcription": "不抽，谢谢",
-        "audioUrl": "/lessons/sichuanese/015_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/015_southwestern.wav"
       },
       {
         "id": 16,
         "source": "hǎo qín kuài 。",
         "target": "So diligent.",
         "transcription": "好勤快。",
-        "audioUrl": "/lessons/sichuanese/016_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/016_southwestern.wav"
       },
       {
         "id": 17,
         "source": "chōu bú chōu yān ",
         "target": "Do you smoke? ",
         "transcription": "抽不抽烟",
-        "audioUrl": "/lessons/sichuanese/017_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/017_southwestern.wav"
       },
       {
         "id": 18,
         "source": "xǐ bú xǐ huān ？",
         "target": "Do you like it?",
         "transcription": "喜不喜欢？",
-        "audioUrl": "/lessons/sichuanese/018_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/018_southwestern.wav"
       },
       {
         "id": 19,
         "source": "fàng nǎ ér ？",
         "target": "Where do you want it?",
         "transcription": "放哪儿？",
-        "audioUrl": "/lessons/sichuanese/019_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/019_southwestern.wav"
       },
       {
         "id": 20,
         "source": "xiǎo xīn diǎn 。",
         "target": "Be careful.",
         "transcription": "小心点。",
-        "audioUrl": "/lessons/sichuanese/020_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/020_southwestern.wav"
       },
       {
         "id": 21,
         "source": "xiǎo xīn tàng ！",
         "target": "Careful, it's hot!",
         "transcription": "小心烫！",
-        "audioUrl": "/lessons/sichuanese/021_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/021_southwestern.wav"
       },
       {
         "id": 22,
         "source": "màn màn chī 。",
         "target": "Eat slowly.",
         "transcription": "慢慢吃。",
-        "audioUrl": "/lessons/sichuanese/022_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/022_southwestern.wav"
       },
       {
         "id": 23,
         "source": "nǐ xiān qǐng 。",
         "target": "After you.",
         "transcription": "你先请。",
-        "audioUrl": "/lessons/sichuanese/023_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/023_southwestern.wav"
       },
       {
         "id": 24,
         "source": "duō chī yī diǎn ！",
         "target": "Eat more!",
         "transcription": "多吃一点！",
-        "audioUrl": "/lessons/sichuanese/024_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/024_southwestern.wav"
       },
       {
         "id": 25,
         "source": "děng děng wǒ ！",
         "target": "Wait for me!",
         "transcription": "等等我！",
-        "audioUrl": "/lessons/sichuanese/025_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/025_southwestern.wav"
       },
       {
         "id": 26,
         "source": "xīn kǔ le ！",
         "target": "It's been hard!",
         "transcription": "辛苦了！",
-        "audioUrl": "/lessons/sichuanese/026_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/026_southwestern.wav"
       },
       {
         "id": 27,
         "source": "bú tài míng bái 。",
         "target": "I don't understand.",
         "transcription": "不太明白。",
-        "audioUrl": "/lessons/sichuanese/027_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/027_southwestern.wav"
       },
       {
         "id": 28,
         "source": "bú yào má fán 。",
         "target": "Don't bother.",
         "transcription": "不要麻烦。",
-        "audioUrl": "/lessons/sichuanese/028_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/028_southwestern.wav"
       },
       {
         "id": 29,
         "source": "nǐ bú yòng xǐ ！",
         "target": "You don't have to wash it!",
         "transcription": "你不用洗！",
-        "audioUrl": "/lessons/sichuanese/029_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/029_southwestern.wav"
       },
       {
         "id": 30,
         "source": "gǔ tóu hěn duō 。",
         "target": "There's a lot of bones.",
         "transcription": "骨头很多。",
-        "audioUrl": "/lessons/sichuanese/030_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/030_southwestern.wav"
       },
       {
         "id": 31,
         "source": "zhēn yǒu yì sī 。",
         "target": "That's funny.",
         "transcription": "真有意思。",
-        "audioUrl": "/lessons/sichuanese/031_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/031_southwestern.wav"
       },
       {
         "id": 32,
         "source": "nǐ lěng bú lěng ？",
         "target": "Are you cold?",
         "transcription": "你冷不冷？",
-        "audioUrl": "/lessons/sichuanese/032_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/032_southwestern.wav"
       },
       {
         "id": 33,
         "source": "wèi dào chāo hǎo 。",
         "target": "It tastes superb.",
         "transcription": "味道超好。",
-        "audioUrl": "/lessons/sichuanese/033_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/033_southwestern.wav"
       },
       {
         "id": 34,
         "source": "tiān qì zhēn hǎo ！",
         "target": "The weather is so nice!",
         "transcription": "天气真好！",
-        "audioUrl": "/lessons/sichuanese/034_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/034_southwestern.wav"
       },
       {
         "id": 35,
         "source": "tài hǎo chī le 。",
         "target": "It's so delicious.",
         "transcription": "太好吃了。",
-        "audioUrl": "/lessons/sichuanese/035_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/035_southwestern.wav"
       },
       {
         "id": 36,
         "source": "tài rè le ba ？",
         "target": "It's too hot, isn't it?",
         "transcription": "太热了吧？",
-        "audioUrl": "/lessons/sichuanese/036_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/036_southwestern.wav"
       },
       {
         "id": 37,
         "source": "hǎo jiǔ bú jiàn 。",
         "target": "It's been a long time.",
         "transcription": "好久不见。",
-        "audioUrl": "/lessons/sichuanese/037_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/037_southwestern.wav"
       },
       {
         "id": 38,
         "source": "hǎo hǎo xiū xī 。",
         "target": "Have a good rest.",
         "transcription": "好好休息。",
-        "audioUrl": "/lessons/sichuanese/038_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/038_southwestern.wav"
       },
       {
         "id": 39,
         "source": "wǒ xiān zǒu le 。",
         "target": "I'll go first.",
         "transcription": "我先走了。",
-        "audioUrl": "/lessons/sichuanese/039_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/039_southwestern.wav"
       },
       {
         "id": 40,
         "source": "wǒ lái ná ba 。",
         "target": "I'll get it.",
         "transcription": "我来拿吧。",
-        "audioUrl": "/lessons/sichuanese/040_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/040_southwestern.wav"
       },
       {
         "id": 41,
         "source": "wǒ lái kàn kàn 。",
         "target": "I'll take a look.",
         "transcription": "我来看看。",
-        "audioUrl": "/lessons/sichuanese/041_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/041_southwestern.wav"
       },
       {
         "id": 42,
         "source": "méi yǒu ，méi yǒu ",
         "target": "No, no. ",
         "transcription": "没有，没有",
-        "audioUrl": "/lessons/sichuanese/042_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/042_southwestern.wav"
       },
       {
         "id": 43,
         "source": "yào bāng máng ma ？",
         "target": "Want some help?",
         "transcription": "要帮忙吗？",
-        "audioUrl": "/lessons/sichuanese/043_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/043_southwestern.wav"
       },
       {
         "id": 44,
         "source": "wèi ！nǐ hǎo ！",
         "target": "Hello? Hello. - Hello!",
         "transcription": "喂！你好！",
-        "audioUrl": "/lessons/sichuanese/044_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/044_southwestern.wav"
       },
       {
         "id": 45,
         "source": "xiè xiè zhāo dài ！",
         "target": "Thanks for the hospitality!",
         "transcription": "谢谢招待！",
-        "audioUrl": "/lessons/sichuanese/045_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/045_southwestern.wav"
       },
       {
         "id": 46,
         "source": "zhè gè hǎo chī 。",
         "target": "This is delicious.",
         "transcription": "这个好吃。",
-        "audioUrl": "/lessons/sichuanese/046_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/046_southwestern.wav"
       },
       {
         "id": 47,
         "source": "zhè lǐ hěn jìn 。",
         "target": "It's very close.",
         "transcription": "这里很近。",
-        "audioUrl": "/lessons/sichuanese/047_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/047_southwestern.wav"
       },
       {
         "id": 48,
         "source": "zhè yàng kě yǐ ma ？",
         "target": "Is this okay?",
         "transcription": "这样可以吗？",
-        "audioUrl": "/lessons/sichuanese/048_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/048_southwestern.wav"
       },
       {
         "id": 49,
         "source": "zhè gè méi gǔ tóu 。",
         "target": "It's boneless.",
         "transcription": "这个没骨头。",
-        "audioUrl": "/lessons/sichuanese/049_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/049_southwestern.wav"
       },
       {
         "id": 50,
         "source": "zhè gè zěn me zuò ？",
         "target": "How do you make this?",
         "transcription": "这个怎么做？",
-        "audioUrl": "/lessons/sichuanese/050_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/050_southwestern.wav"
       },
       {
         "id": 51,
         "source": "yào bú yào jiā diǎn ？",
         "target": "Do you want some more?",
         "transcription": "要不要加点？",
-        "audioUrl": "/lessons/sichuanese/051_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/051_southwestern.wav"
       },
       {
         "id": 52,
         "source": "lái ，wǒ bāng nǐ 。",
         "target": "Here, let me help you.",
         "transcription": "来，我帮你。",
-        "audioUrl": "/lessons/sichuanese/052_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/052_southwestern.wav"
       },
       {
         "id": 53,
         "source": "nǐ men xiān zǒu le ",
         "target": "You guys go ahead. ",
         "transcription": "你们先走了",
-        "audioUrl": "/lessons/sichuanese/053_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/053_southwestern.wav"
       },
       {
         "id": 54,
         "source": "chī bǎo le ，xiè xiè 。",
         "target": "I'm full, thanks.",
         "transcription": "吃饱了，谢谢。",
-        "audioUrl": "/lessons/sichuanese/054_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/054_southwestern.wav"
       },
       {
         "id": 55,
         "source": "zhōng wén shuō dé hǎo ！",
         "target": "Good Chinese!",
         "transcription": "中文说得好！",
-        "audioUrl": "/lessons/sichuanese/055_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/055_southwestern.wav"
       },
       {
         "id": 56,
         "source": "nǐ shì shì zhè gè 。",
         "target": "You try this.",
         "transcription": "你试试这个。",
-        "audioUrl": "/lessons/sichuanese/056_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/056_southwestern.wav"
       },
       {
         "id": 57,
         "source": "wèi dào hěn tè bié 。",
         "target": "It has a special flavor.",
         "transcription": "味道很特别。",
-        "audioUrl": "/lessons/sichuanese/057_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/057_southwestern.wav"
       },
       {
         "id": 58,
         "source": "xǐ huān zhōng guó ma ？",
         "target": "Like China?",
         "transcription": "喜欢中国吗？",
-        "audioUrl": "/lessons/sichuanese/058_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/058_southwestern.wav"
       },
       {
         "id": 59,
         "source": "duì ，dì yī cì 。",
         "target": "Yes, for the first time.",
         "transcription": "对，第一次。",
-        "audioUrl": "/lessons/sichuanese/059_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/059_southwestern.wav"
       },
       {
         "id": 60,
         "source": "dì yī cì zài zhōng guó ma ？",
         "target": "First time in China?",
         "transcription": "第一次在中国吗？",
-        "audioUrl": "/lessons/sichuanese/060_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/060_southwestern.wav"
       },
       {
         "id": 61,
         "source": "wǒ men lái bāng máng 。",
         "target": "We're here to help.",
         "transcription": "我们来帮忙。",
-        "audioUrl": "/lessons/sichuanese/061_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/061_southwestern.wav"
       },
       {
         "id": 62,
         "source": "wǒ shuō de duì ma ？",
         "target": "Am I right?",
         "transcription": "我说的对吗？",
-        "audioUrl": "/lessons/sichuanese/062_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/062_southwestern.wav"
       },
       {
         "id": 63,
         "source": "wǒ gēn nǐ men zǒu 。",
         "target": "I'll go with you.",
         "transcription": "我跟你们走。",
-        "audioUrl": "/lessons/sichuanese/063_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/063_southwestern.wav"
       },
       {
         "id": 64,
         "source": "lái ，yī qǐ zuò ！",
         "target": "Come on, do it together!",
         "transcription": "来，一起做！",
-        "audioUrl": "/lessons/sichuanese/064_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/064_southwestern.wav"
       },
       {
         "id": 65,
         "source": "xīn kǔ nǐ men le 。",
         "target": "Thanks for your hard work.",
         "transcription": "辛苦你们了。",
-        "audioUrl": "/lessons/sichuanese/065_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/065_southwestern.wav"
       },
       {
         "id": 66,
         "source": "nǐ men xiān xiū xī ba 。",
         "target": "You guys take a rest first.",
         "transcription": "你们先休息吧。",
-        "audioUrl": "/lessons/sichuanese/066_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/066_southwestern.wav"
       },
       {
         "id": 67,
         "source": "xià cì wǒ men qǐng kè 。",
         "target": "We'll treat you next time.",
         "transcription": "下次我们请客。",
-        "audioUrl": "/lessons/sichuanese/067_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/067_southwestern.wav"
       },
       {
         "id": 68,
         "source": "chà bú duō jiù háng 。",
         "target": "That's about right.",
         "transcription": "差不多就行。",
-        "audioUrl": "/lessons/sichuanese/068_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/068_southwestern.wav"
       },
       {
         "id": 69,
         "source": "dōu hǎo ，dōu hǎo 。",
         "target": "All good, all good.",
         "transcription": "都好，都好。",
-        "audioUrl": "/lessons/sichuanese/069_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/069_southwestern.wav"
       },
       {
         "id": 70,
         "source": "tīng dé dǒng yī diǎn diǎn 。",
         "target": "I understand a little bit.",
         "transcription": "听得懂一点点。",
-        "audioUrl": "/lessons/sichuanese/070_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/070_southwestern.wav"
       },
       {
         "id": 71,
         "source": "kě yǐ yòng kuài zǐ ma ？",
         "target": "Can I use chopsticks?",
         "transcription": "可以用筷子吗？",
-        "audioUrl": "/lessons/sichuanese/071_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/071_southwestern.wav"
       },
       {
         "id": 72,
         "source": "kuài zǐ yòng de bú cuò ！",
         "target": "Chopsticks are good!",
         "transcription": "筷子用的不错！",
-        "audioUrl": "/lessons/sichuanese/072_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/072_southwestern.wav"
       },
       {
         "id": 73,
         "source": "nǐ bú ài chī zhè gè 。",
         "target": "You don't like it.",
         "transcription": "你不爱吃这个。",
-        "audioUrl": "/lessons/sichuanese/073_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/073_southwestern.wav"
       },
       {
         "id": 74,
         "source": "zhè ér pāi zhào hǎo kàn 。",
         "target": "This is a good photo op.",
         "transcription": "这儿拍照好看。",
-        "audioUrl": "/lessons/sichuanese/074_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/074_southwestern.wav"
       },
       {
         "id": 75,
         "source": "zuò zhè biān kě yǐ ma ？",
         "target": "Can we sit here?",
         "transcription": "坐这边可以吗？",
-        "audioUrl": "/lessons/sichuanese/075_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/075_southwestern.wav"
       },
       {
         "id": 76,
         "source": "wǒ men suí biàn zuò ma ？",
         "target": "Can we sit anywhere?",
         "transcription": "我们随便坐吗？",
-        "audioUrl": "/lessons/sichuanese/076_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/076_southwestern.wav"
       },
       {
         "id": 77,
         "source": "hěn kāi xīn ，hěn kāi xīn ",
         "target": "Very happy, very happy. ",
         "transcription": "很开心，很开心",
-        "audioUrl": "/lessons/sichuanese/077_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/077_southwestern.wav"
       },
       {
         "id": 78,
         "source": "rèn shí nǐ hěn gāo xìng 。",
         "target": "It's nice to meet you.",
         "transcription": "认识你很高兴。",
-        "audioUrl": "/lessons/sichuanese/078_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/078_southwestern.wav"
       },
       {
         "id": 79,
         "source": "xiè xiè ，hěn xǐ huān 。",
         "target": "Thanks, enjoyed it.",
         "transcription": "谢谢，很喜欢。",
-        "audioUrl": "/lessons/sichuanese/079_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/079_southwestern.wav"
       },
       {
         "id": 80,
         "source": "wǒ men yī qǐ pāi zhào ba 。",
         "target": "Let's take a picture together.",
         "transcription": "我们一起拍照吧。",
-        "audioUrl": "/lessons/sichuanese/080_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/080_southwestern.wav"
       },
       {
         "id": 81,
         "source": "méi guān xì ，màn màn lái 。",
         "target": "It's okay, take your time.",
         "transcription": "没关系，慢慢来。",
-        "audioUrl": "/lessons/sichuanese/081_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/081_southwestern.wav"
       },
       {
         "id": 82,
         "source": "hā hā ，hǎo qiǎo ā ！",
         "target": "What a coincidence!",
         "transcription": "哈哈，好巧啊！",
-        "audioUrl": "/lessons/sichuanese/082_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/082_southwestern.wav"
       },
       {
         "id": 83,
         "source": "wǒ lái xǐ ，wǒ lái xǐ 。",
         "target": "I'll do it, I'll do it.",
         "transcription": "我来洗，我来洗。",
-        "audioUrl": "/lessons/sichuanese/083_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/083_southwestern.wav"
       },
       {
         "id": 84,
         "source": "jīn tiān zhēn de kāi xīn 。",
         "target": "I'm really happy today.",
         "transcription": "今天真的开心。",
-        "audioUrl": "/lessons/sichuanese/084_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/084_southwestern.wav"
       },
       {
         "id": 85,
         "source": "zhōng wén shuō de hái kě yǐ ！",
         "target": "I can speak Chinese pretty well!",
         "transcription": "中文说的还可以！",
-        "audioUrl": "/lessons/sichuanese/085_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/085_southwestern.wav"
       },
       {
         "id": 86,
         "source": "měi guó hǎo hái shì zhōng guó hǎo ？",
         "target": "Is America or China better?",
         "transcription": "美国好还是中国好？",
-        "audioUrl": "/lessons/sichuanese/086_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/086_southwestern.wav"
       },
       {
         "id": 87,
         "source": "zhè gè yòng zhōng wén zěn me shuō ？",
         "target": "How do you say this in Chinese?",
         "transcription": "这个用中文怎么说？",
-        "audioUrl": "/lessons/sichuanese/087_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/087_southwestern.wav"
       },
       {
         "id": 88,
         "source": "wǒ men hěn kāi xīn néng lái dào zhè lǐ ",
         "target": "We're happy to be here.",
         "transcription": "我们很开心能来到这里",
-        "audioUrl": "/lessons/sichuanese/088_southwestern.wav"
+        "audioUrl": "https://storage.googleapis.com/language-explorer-assets/lessons/sichuanese/088_southwestern.wav"
       }
     ]
   }
