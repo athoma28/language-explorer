@@ -14,46 +14,12 @@
       </select>
       <input id="search" placeholder="Search…">
       <label><input type="radio" name="field" value="source" checked> Source</label>
-      <label><input type="radio" name="field" value="translation"> Translation</label>
-      <button id="openSettings">⚙️</button>
+      <label><input type="radio" name="field" value="target"> Target</label>
     </div>
   </header>
-
   <main id="content"></main>
   <audio id="player"></audio>
 
-  <!-- Settings Modal -->
-  <div id="settingsModal" class="modal">
-    <div class="modal-content">
-      <h2>Settings</h2>
-      <label>
-        Lesson-folder Regex:<br>
-        <input id="cfgFolderRE">
-      </label>
-      <label>
-        Source-txt Pattern:<br>
-        <input id="cfgSource">
-      </label>
-      <label>
-        Translation-txt Pattern:<br>
-        <input id="cfgTranslation">
-      </label>
-      <label>
-        Script-txt Pattern:<br>
-        <input id="cfgScript">
-      </label>
-      <label>
-        Audio-pattern:<br>
-        <input id="cfgAudio">
-      </label>
-      <div class="modal-buttons">
-        <button id="saveSettings">Save</button>
-        <button id="cancelSettings">Cancel</button>
-      </div>
-    </div>
-  </div>
-
-  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-  <script src="script.js"></script>
+  <script type="module" src="script.js"></script>
 </body>
 </html>

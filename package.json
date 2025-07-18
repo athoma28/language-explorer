@@ -1,13 +1,16 @@
 {
   "name": "lang-explorer",
   "version": "1.0.0",
-  "main": "server.js",
+  "type": "module", 
+  "main": "server.cjs",
   "scripts": {
-    "start": "node server.js"
+    "start":     "node server.cjs",
+    "build:dev": "node build-lessons.js",
+    "build:prod": "node build-lessons.js --audio-base-url https://storage.googleapis.com/language-explorer-assets"
   },
   "dependencies": {
-    "cors": "^2.8.5",
-    "express": "^4.18.2",
-    "js-yaml": "^4.1.0"
+    "cors":     "^2.8.5",
+    "express":  "^4.18.2",
+    "js-yaml":  "^4.1.0"
   }
 }
