@@ -4,6 +4,7 @@ lessons:
   - name: "Mandarin"
     subtitle: "Basics of Mandarin"
     path:           "lessons/mandarin"       # used for audio lookup
+    descriptionFile: "lessons/mandarin/lesson-description.md"
     source:         "lessons/mandarin/mandarin.txt" # smaller text under characters
     target:         "lessons/mandarin/mandarin-en.txt" # right side translation
     transcription:  "lessons/mandarin/mandarin-zh.txt" # larger characters
