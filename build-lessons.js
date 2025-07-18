@@ -40,6 +40,29 @@ async function getAudioFiles(lessonPath, isProd, audioBaseUrl) {
   }
 }
 
+async function readTextFile(filePath, isProd, baseUrl) {
+  if (!filePath) return ''
+
+  if (isProd) {
+    try {
+      const url = `${baseUrl.replace(/\/$/, '')}/${filePath}`
+      const response = await axios.get(url)
+      return response.data
+    } catch (error) {
+      console.error(`❌ Error fetching text file from GCS: ${filePath}`, error.message)
+      return ''
+    }
+  } else {
+    const localPath = path.join(process.cwd(), filePath)
+    return fs.existsSync(localPath) ? fs.readFileSync(localPath, 'utf8') : ''
+  }
+}
+
+async function readLines(filePath, isProd, baseUrl) {
+  const content = await readTextFile(filePath, isProd, baseUrl)
+  return content ? content.split('\n') : []
+}
+
 async function build() {
   // 1. parse CLI args
   const argv = process.argv.slice(2)
@@ -70,15 +93,10 @@ async function build() {
       return null
     }
 
-    const readLines = file =>
-      fs.existsSync(file)
-        ? fs.readFileSync(file, 'utf8').split('\n')
-        : []
-
-    const sources = readLines(path.join(process.cwd(), entry.source))
-    const targets = readLines(path.join(process.cwd(), entry.target))
+    const sources = await readLines(entry.source, !!prodBase, config.audioBaseUrl)
+    const targets = await readLines(entry.target, !!prodBase, config.audioBaseUrl)
     const trans  = entry.transcription
-      ? readLines(path.join(process.cwd(), entry.transcription))
+      ? await readLines(entry.transcription, !!prodBase, config.audioBaseUrl)
       : []
 
     const audioFiles = await getAudioFiles(entry.path, !!prodBase, config.audioBaseUrl)
@@ -104,12 +122,7 @@ async function build() {
     return {
       name:        entry.name,
       subtitle:    entry.subtitle || '',
-      description: entry.descriptionFile
-                     ? fs.readFileSync(
-                         path.join(process.cwd(), entry.descriptionFile),
-                         'utf8'
-                       )
-                     : '',
+      description: await readTextFile(entry.descriptionFile, !!prodBase, config.audioBaseUrl),
       sentences
     }
   })
